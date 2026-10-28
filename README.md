@@ -1,4 +1,4 @@
-# Star Wars Battlefront II (2005) – LAN play over Tailscale
+# Star Wars Battlefront II (2005) 1.1 – LAN play over Tailscale
 
 This lets you play the 2005 Star Wars Battlefront II's **LAN multiplayer** with friends over the internet, using [Tailscale](https://tailscale.com). It uses a drop-in `dinput8.dll` and changes no game files.
 
@@ -9,7 +9,7 @@ On a real LAN, the game finds servers by broadcasting, and broadcasts don't cros
 
 It is the Battlefront II port of [Battlefront (2004) 1.3.7 – LAN play over Tailscale](https://github.com/afrowebster/Battlefront-2004-1.3.7-GoG-Steam-version-Tailscale-LAN).
 
-**Tested:** the GOG build, with a dedicated server in a Windows 10 VM and a remote Windows 11 client.
+**For:** the **GOG version 1.1** of Battlefront II. Tested with a dedicated server in a Windows 10 VM and a remote Windows 11 client. The exact exe it was tested on is identified by SHA-256 in [FINDINGS.md](FINDINGS.md).
 
 **Steam:** untested. The address alias, the discovery redirect and the `/norender` fix don't depend on the exact build. The join-bug workaround checks the code bytes of the exe and switches itself off on any build it doesn't recognise. The log tells you which case applies.
 

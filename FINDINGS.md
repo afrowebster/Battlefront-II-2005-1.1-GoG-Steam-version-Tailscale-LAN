@@ -1,8 +1,8 @@
 # Battlefront II (2005) LAN over Tailscale: findings
 
-This is the reverse-engineering record behind the proxy. It ports the [Battlefront (2004) proxy](https://github.com/afrowebster/Battlefront-2004-1.3.7-GoG-Steam-version-Tailscale-LAN) to **Star Wars Battlefront II, GOG build**.
+This is the reverse-engineering record behind the proxy. It ports the [Battlefront (2004) proxy](https://github.com/afrowebster/Battlefront-2004-1.3.7-GoG-Steam-version-Tailscale-LAN) to **Star Wars Battlefront II, GOG version 1.1**.
 
-Everything below was verified in October 2026 on `BattlefrontII.exe` with SHA-256 `9737C82A16369918A67EC33F5E07205E7FF89FD05F556CC79CC11027416E5541` (GOG buildId 50834614945396236; the exe has no version resource), unless it is marked *unverified*. All addresses are Ghidra virtual addresses with image base 0x400000.
+Everything below was verified in October 2026 on `BattlefrontII.exe` with SHA-256 `9737C82A16369918A67EC33F5E07205E7FF89FD05F556CC79CC11027416E5541` (GOG version 1.1, buildId 50834614945396236; the exe itself has no version resource), unless it is marked *unverified*. All addresses are Ghidra virtual addresses with image base 0x400000.
 
 ## Goal and result
 
